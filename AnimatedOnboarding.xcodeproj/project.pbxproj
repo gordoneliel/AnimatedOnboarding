@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		05E8B7551E2813B000BBCEFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8B7541E2813B000BBCEFE /* AppDelegate.swift */; };
-		05E8B7571E2813B000BBCEFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8B7561E2813B000BBCEFE /* ViewController.swift */; };
-		05E8B75A1E2813B000BBCEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E8B7581E2813B000BBCEFE /* Main.storyboard */; };
 		05E8B75C1E2813B000BBCEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E8B75B1E2813B000BBCEFE /* Assets.xcassets */; };
 		05E8B75F1E2813B000BBCEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E8B75D1E2813B000BBCEFE /* LaunchScreen.storyboard */; };
+		05E8B7701E2813FE00BBCEFE /* ThrottleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8B7681E2813FE00BBCEFE /* ThrottleHelper.swift */; };
+		05E8B7711E2813FE00BBCEFE /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E8B76A1E2813FE00BBCEFE /* Onboarding.storyboard */; };
+		05E8B7721E2813FE00BBCEFE /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8B76C1E2813FE00BBCEFE /* OnboardingPageViewController.swift */; };
+		05E8B7731E2813FE00BBCEFE /* StepOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8B76D1E2813FE00BBCEFE /* StepOne.swift */; };
+		05E8B7741E2813FE00BBCEFE /* StepThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8B76E1E2813FE00BBCEFE /* StepThree.swift */; };
+		05E8B7751E2813FE00BBCEFE /* StepTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8B76F1E2813FE00BBCEFE /* StepTwo.swift */; };
+		05E8B7781E28162C00BBCEFE /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8B7771E28162C00BBCEFE /* UIColor+Extensions.swift */; };
+		05E8B7811E28170500BBCEFE /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8B77A1E28170500BBCEFE /* DesignableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05E8B7511E2813B000BBCEFE /* AnimatedOnboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedOnboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E8B7541E2813B000BBCEFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05E8B7561E2813B000BBCEFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		05E8B7591E2813B000BBCEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05E8B75B1E2813B000BBCEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05E8B75E1E2813B000BBCEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05E8B7601E2813B000BBCEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E8B7681E2813FE00BBCEFE /* ThrottleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrottleHelper.swift; sourceTree = "<group>"; };
+		05E8B76A1E2813FE00BBCEFE /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		05E8B76C1E2813FE00BBCEFE /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
+		05E8B76D1E2813FE00BBCEFE /* StepOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepOne.swift; sourceTree = "<group>"; };
+		05E8B76E1E2813FE00BBCEFE /* StepThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepThree.swift; sourceTree = "<group>"; };
+		05E8B76F1E2813FE00BBCEFE /* StepTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepTwo.swift; sourceTree = "<group>"; };
+		05E8B7771E28162C00BBCEFE /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		05E8B77A1E28170500BBCEFE /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,68 @@
 		05E8B7531E2813B000BBCEFE /* AnimatedOnboarding */ = {
 			isa = PBXGroup;
 			children = (
+				05E8B7791E28170500BBCEFE /* Designables */,
+				05E8B7761E28162C00BBCEFE /* Extensions */,
+				05E8B7661E2813FE00BBCEFE /* Helpers */,
+				05E8B7691E2813FE00BBCEFE /* Onboarding */,
 				05E8B7541E2813B000BBCEFE /* AppDelegate.swift */,
-				05E8B7561E2813B000BBCEFE /* ViewController.swift */,
-				05E8B7581E2813B000BBCEFE /* Main.storyboard */,
 				05E8B75B1E2813B000BBCEFE /* Assets.xcassets */,
 				05E8B75D1E2813B000BBCEFE /* LaunchScreen.storyboard */,
 				05E8B7601E2813B000BBCEFE /* Info.plist */,
 			);
 			path = AnimatedOnboarding;
+			sourceTree = "<group>";
+		};
+		05E8B7661E2813FE00BBCEFE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				05E8B7671E2813FE00BBCEFE /* ThrottleHelper */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		05E8B7671E2813FE00BBCEFE /* ThrottleHelper */ = {
+			isa = PBXGroup;
+			children = (
+				05E8B7681E2813FE00BBCEFE /* ThrottleHelper.swift */,
+			);
+			path = ThrottleHelper;
+			sourceTree = "<group>";
+		};
+		05E8B7691E2813FE00BBCEFE /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				05E8B76A1E2813FE00BBCEFE /* Onboarding.storyboard */,
+				05E8B76B1E2813FE00BBCEFE /* ViewControllers */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		05E8B76B1E2813FE00BBCEFE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				05E8B76C1E2813FE00BBCEFE /* OnboardingPageViewController.swift */,
+				05E8B76D1E2813FE00BBCEFE /* StepOne.swift */,
+				05E8B76F1E2813FE00BBCEFE /* StepTwo.swift */,
+				05E8B76E1E2813FE00BBCEFE /* StepThree.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		05E8B7761E28162C00BBCEFE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				05E8B7771E28162C00BBCEFE /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		05E8B7791E28170500BBCEFE /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				05E8B77A1E28170500BBCEFE /* DesignableButton.swift */,
+			);
+			path = Designables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +192,7 @@
 			files = (
 				05E8B75F1E2813B000BBCEFE /* LaunchScreen.storyboard in Resources */,
 				05E8B75C1E2813B000BBCEFE /* Assets.xcassets in Resources */,
-				05E8B75A1E2813B000BBCEFE /* Main.storyboard in Resources */,
+				05E8B7711E2813FE00BBCEFE /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +203,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05E8B7571E2813B000BBCEFE /* ViewController.swift in Sources */,
+				05E8B7721E2813FE00BBCEFE /* OnboardingPageViewController.swift in Sources */,
+				05E8B7741E2813FE00BBCEFE /* StepThree.swift in Sources */,
+				05E8B7781E28162C00BBCEFE /* UIColor+Extensions.swift in Sources */,
+				05E8B7701E2813FE00BBCEFE /* ThrottleHelper.swift in Sources */,
+				05E8B7751E2813FE00BBCEFE /* StepTwo.swift in Sources */,
 				05E8B7551E2813B000BBCEFE /* AppDelegate.swift in Sources */,
+				05E8B7731E2813FE00BBCEFE /* StepOne.swift in Sources */,
+				05E8B7811E28170500BBCEFE /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		05E8B7581E2813B000BBCEFE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05E8B7591E2813B000BBCEFE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		05E8B75D1E2813B000BBCEFE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
