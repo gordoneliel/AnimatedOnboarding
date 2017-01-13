@@ -12,3 +12,6 @@ How you can utilize them:
   - A combination of these
 
 Let me know what cool animations you come up with!
+
+###Medium article
+https://medium.com/@gordoneliel/effortless-animations-with-uistackview-564f5968ce45#.m6gythdqi
